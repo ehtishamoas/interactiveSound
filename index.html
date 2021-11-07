@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sound on the Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Tone.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <audio id="drum1" loop>
+      <source src="music/drum1.mp3" type="audio/mpeg">
+      <p>Sorry, you do not support audio formats, please come back later.</p>
+    </audio>
+    <audio id="drum2" loop>
+      <source src="music/drum2.mp3" type="audio/mpeg">
+      <p>Sorry, you do not support audio formats, please come back later.</p>
+    </audio>
+    <audio id="drum3" loop>
+      <source src="music/drum3.mp3" type="audio/mpeg">
+      <p>Sorry, you do not support audio formats, please come back later.</p>
+    </audio>
+
+    <div class="container">
+      <div id="Note1">
+        <p> keyboard key: A </p>
+        <p> Note: C5 </p>
+      </div>
+
+      <div id="Note2">
+        <p> keyboard key: S </p>
+        <p> Note: D5 </p>
+      </div>
+
+      <div id="Note3">
+        <p> keyboard key: D </p>
+        <p> Note: E5 </p>
+      </div>
+
+      <div id="Note4">
+        <p> keyboard key: F </p>
+        <p> Note: G5 </p>
+      </div>
+    </div>
+
+    <div class="bgM" id = "bgM">
+      <p> Click here to start/stop background Music </p>
+      <p> Press Space Bar to change background music </p>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
